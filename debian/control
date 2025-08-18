@@ -1,0 +1,18 @@
+Source: edk2-qualcomm
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: admin
+Priority: standard
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               dh-exec,
+               pandoc,
+
+Package: edk2-qualcomm
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends},
+Description: edk2-qualcomm
+ This package provides the edk2-qualcomm.
