@@ -14,5 +14,14 @@ Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
-Description: edk2-qualcomm
- This package provides the edk2-qualcomm.
+Description: Qualcomm EDK II firmwares
+ This package provides the prebuilt Qualcomm EDK II firmwares.
+
+Package: edk2-radxa-dragon-q6a
+Architecture: all
+Section: admin
+Priority: optional
+Depends: edk2-qualcomm,
+         ${misc:Depends},
+Description: Radxa EDK II meta-package for Radxa Dragon Q6A
+ This is the meta-package for EDK II.
