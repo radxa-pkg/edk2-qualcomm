@@ -1,0 +1,2 @@
+setup/setup.sh usr/lib/u-boot/radxa-dragon-q6a/
+src/radxa-dragon-q6a usr/lib/u-boot/
