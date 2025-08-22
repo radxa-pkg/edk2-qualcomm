@@ -1,8 +1,7 @@
 /.debhelper
 /debhelper-build-stamp
 /files
-/linux-*/
-/u-boot-*/
+/edk2-*/
 /*.debhelper.log
 /*.*.debhelper
 /*.substvars

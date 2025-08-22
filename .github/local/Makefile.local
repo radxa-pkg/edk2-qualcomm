@@ -1,0 +1,3 @@
+.PHONY: post_build
+post_build:
+	mkdir -p src/radxa-dragon-q6a
