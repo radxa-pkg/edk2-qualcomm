@@ -11,7 +11,8 @@ if [[ ! -v ERROR_REQUIRE_TARGET ]]; then
 fi
 
 build_spinor() {
-    cp $SCRIPT_DIR/spi.img /tmp/spi.img
+	mkdir -p /tmp/spinor
+	cp -r "$SCRIPT_DIR"/* /tmp/spinor/
 }
 
 erase_spinor() {
@@ -36,7 +37,10 @@ update_spinor() {
 	build_spinor
 	erase_spinor "$DEVICE"
 	echo "Writing to $DEVICE..."
-	flashcp /tmp/spi.img "$DEVICE"
+	pushd /tmp/spinor/
+	edl-ng --hostdev-as-target "$DEVICE" rawprogram rawprogram0.xml patch0.xml
+	popd
+	rm -rf /tmp/spinor/
 	sync
 }
 

@@ -1,0 +1,11 @@
+# EDK2 firmware packages contain binary blobs
+arch-independent-package-contains-binary-or-object
+
+# EDK2 firmware binaries are statically linked by design
+statically-linked-binary
+
+# EDK2 firmware components don't link against libc
+library-not-linked-against-libc
+
+# EDK2 shared components don't have standard library dependencies
+shared-library-lacks-prerequisites
