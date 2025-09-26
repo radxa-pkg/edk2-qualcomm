@@ -1,0 +1,2 @@
+setup/setup.sh usr/lib/edk2/radxa/qcs6490/
+src/qcs6490 usr/lib/edk2/radxa/
