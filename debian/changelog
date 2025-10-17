@@ -1,3 +1,11 @@
+edk2-qualcomm (0.1.0-2) unstable; urgency=medium
+
+  [ Guoguo ]
+  * feat: use edl-ng to update spi
+  * feat: update firmware snapshot version to 2025-10-13
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 17 Oct 2025 07:07:41 +0000
+
 edk2-qualcomm (0.1.0-1) unstable; urgency=medium
 
   [ "Radxa Computer Co., Ltd" ]
