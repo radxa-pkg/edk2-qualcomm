@@ -26,3 +26,21 @@ Depends: edk2-qcs6490,
          ${misc:Depends},
 Description: Radxa EDK II meta-package for Radxa Dragon Q6A
  This is the meta-package for EDK II.
+
+Package: edk2-qcs9075
+Architecture: all
+Section: admin
+Priority: optional
+Depends: edl-ng,
+         ${misc:Depends},
+Description: Radxa EDK II meta-package for Qualcomm QCS9075
+ This package provides the prebuilt Qualcomm QCS9075 EDK II firmwares.
+
+Package: edk2-radxa-airbox-q900
+Architecture: all
+Section: admin
+Priority: optional
+Depends: edk2-qcs9075,
+         ${misc:Depends},
+Description: Radxa EDK II meta-package for Radxa AIRbox Q900
+ This is the meta-package for EDK II.
