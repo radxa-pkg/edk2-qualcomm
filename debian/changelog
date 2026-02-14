@@ -1,3 +1,14 @@
+edk2-qualcomm (0.1.0-5) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: limit package release to related SoC repo
+  * fix: move pkg settings to correct location
+
+  [ Stephen Chen ]
+  * feat: qcs6490: update firmware to 2026-01-20
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Sat, 14 Feb 2026 03:23:23 +0000
+
 edk2-qualcomm (0.1.0-4) unstable; urgency=medium
 
   [ Chongbiao Chen ]
