@@ -1,3 +1,14 @@
+edk2-qualcomm (0.1.0-6) unstable; urgency=medium
+
+  [ Chongbiao Chen ]
+  * feat: add edk2-radxa-dragon-qcs9075
+
+  [ ZHANG Yuntian ]
+  * feat: add edk2-radxa-dragon-midstream
+  * Add new noble releases to pkg.conf.template
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 07 Apr 2026 09:08:17 +0000
+
 edk2-qualcomm (0.1.0-5) unstable; urgency=medium
 
   [ ZHANG Yuntian ]
