@@ -53,3 +53,12 @@ Depends: edk2-qcs9075,
          ${misc:Depends},
 Description: Radxa EDK II meta-package for Radxa AIRbox Q900
  This is the meta-package for EDK II.
+
+Package: edk2-radxa-dragon-midstream
+Architecture: all
+Section: admin
+Priority: optional
+Depends: edk2-radxa-dragon-q6a,
+         ${misc:Depends},
+Description: Radxa EDK II meta-package for Radxa Dragon Midstream
+ This is the meta-package for EDK II.
