@@ -6,7 +6,11 @@
       "qcs9075-noble",
       "qcs9075-noble-test",
       "sc8280xp-noble",
-      "sc8280xp-noble-test"
+      "sc8280xp-noble-test",
+      "qcs6490-resolute",
+      "qcs6490-resolute-test",
+      "sc8280xp-resolute",
+      "sc8280xp-resolute-test"
     ]
   }
 }
