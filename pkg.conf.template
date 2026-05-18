@@ -9,8 +9,14 @@
       "sc8280xp-noble-test",
       "qcs6490-resolute",
       "qcs6490-resolute-test",
+      "qcs9075-resolute",
+      "qcs9075-resolute-test",
       "sc8280xp-resolute",
-      "sc8280xp-resolute-test"
+      "sc8280xp-resolute-test",
+      "qcs6490-trixie",
+      "qcs6490-trixie-test",
+      "sc8280xp-trixie",
+      "sc8280xp-trixie-test"
     ]
   }
 }
