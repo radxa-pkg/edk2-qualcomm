@@ -51,6 +51,10 @@
         <file_name>eth_fw.bin</file_name>
         <file_path>.</file_path>
       </download_file>
+      <download_file storage_type="spinor" minimized="true">
+        <file_name>dsp_fw.bin</file_name>
+        <file_path>.</file_path>
+      </download_file>
       <download_file cmm_file_var="MULTIIMGOEM_BINARY" backup_partition="BACKUP_MULTIIMGOEM" minimized="true">
         <file_name>multi_image.mbn</file_name>
         <file_path>.</file_path>
