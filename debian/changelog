@@ -1,3 +1,11 @@
+edk2-qualcomm (0.1.0-8) unstable; urgency=medium
+
+  [ Stephen Chen ]
+  * feat: qcs6490: update firmware to 6.0.260916.BOOT.MXF.1.0.1-00549-KODIAKWP-1
+  * feat: sc8280xp: update firmware to 6.0.260916.BOOT.MXF.1.1.c1-00167-MAKENA-1
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 17 Sep 2026 08:35:46 +0000
+
 edk2-qualcomm (0.1.0-7) unstable; urgency=medium
 
   [ dependabot[bot] ]
